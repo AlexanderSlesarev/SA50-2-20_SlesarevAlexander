@@ -14,6 +14,7 @@
     background: #333333;
     border-radius: 3px;
     margin-right: 10px;
+    
 }
 
 .gray2 {
@@ -23,6 +24,7 @@
     border-radius: 3px;
     margin-left: 10px;
     margin-right: 10px;
+    
 }
 
 .gray3 {
@@ -66,6 +68,7 @@
     background: #EB5757;
     border-radius: 3px;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .orange {
@@ -75,6 +78,7 @@
     border-radius: 3px;
     margin-right: 10px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .yellow {
@@ -84,6 +88,7 @@
     border-radius: 3px;
     margin-right: 10px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .green1 {
@@ -93,6 +98,7 @@
     border-radius: 3px;
     margin-right: 10px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .green2 {
@@ -102,6 +108,7 @@
     border-radius: 3px;
     margin-right: 10px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .green3 {
@@ -110,6 +117,7 @@
     background: #6FCF97;
     border-radius: 3px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .blue1 {
@@ -118,6 +126,7 @@
     background: #2F80ED;
     border-radius: 3px;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .blue2 {
@@ -127,6 +136,7 @@
     border-radius: 3px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .blue3 {
@@ -136,6 +146,7 @@
     border-radius: 3px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .purple1 {
@@ -145,6 +156,7 @@
     border-radius: 3px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .purple2 {
@@ -154,4 +166,5 @@
     border-radius: 3px;
     margin-left: 10px;
     margin-right: 60px;
+    margin-top: 10px;
 }
