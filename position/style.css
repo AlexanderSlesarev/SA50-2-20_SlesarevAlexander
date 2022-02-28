@@ -2,7 +2,6 @@
     position: inline-block;
     width: 100vw;
     height: 800px;    
-    margin: top;
     background-color: white;
 }
 .square1 {
@@ -11,23 +10,22 @@
     top: 50px;
     height: 50px;
     width: 50px;
-    border: 1px solid red;
+    background-color: red;
 }
 .square2 {
     position: relative;
-    left: 120px;
-    top: 70px;
+    left: 80px;
+    top: 30px;
     height: 50px;
     width: 50px;
-    border: 1px solid #906aed;
-    
+    background-color: #906aed;
 }
 .square3 {
     position: relative;
-    left: 190px;
-    top: 90px;
+    left: 110px;
+    top: 10px;
     height: 50px;
     width: 50px;
-    border: 1px solid green;
+    background-color: #08fe9b;
     
 }
