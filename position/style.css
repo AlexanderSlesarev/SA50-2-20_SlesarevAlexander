@@ -4,29 +4,32 @@
     height: 800px;    
     background-color: white;
 }
-.square1 {
-    position: relative;
-    left: 50px;
-    top: 50px;
-    height: 50px;
-    width: 50px;
-    background-color: red;
-}
-.square2 {
-    position: relative;
-    left: 80px;
-    top: 30px;
-    height: 50px;
-    width: 50px;
-    background-color: #906aed;
-    z-index: 1;
-}
-.square3 {
-    position: relative;
-    left: 110px;
-    top: 10px;
-    height: 50px;
-    width: 50px;
+
+.background2 {
+    position: absolute;
+    left: 70px;
+    top: 25px;
+    height: 500px;
+    width: 650px;
     background-color: #08fe9b;
     
+}
+.square1 {
+    position: absolute;
+    left: 140px;
+    top: 80px;
+    height: 125px;
+    width: 125px;
+    background-color: white;
+    z-index: 1;
+}
+
+.square2 {
+    position: absolute;
+    left: 550px;
+    top: 350px;
+    height: 125px;
+    width: 125px;
+    background-color: white;
+    z-index: 1;
 }
