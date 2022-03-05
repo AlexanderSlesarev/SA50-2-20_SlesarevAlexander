@@ -26,6 +26,10 @@
     align-items: center;
 }
 
+.button1:hover {
+    background: linear-gradient(96.22deg, #EF665D 30.78%, #F17F78 62.3%, #F6A5A5 85.87%, #F6A5A5 101.1%);
+}
+
 .button2 {
     display:flex;
     position: relative;
@@ -42,6 +46,10 @@
     align-items: center;
 }
 
+.button2:hover {
+    background: #FE9687;
+}
+
 .button3 {
     display:flex;
     position: relative;
@@ -56,4 +64,8 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.button3:hover {
+    background: #EF665D;
 }
