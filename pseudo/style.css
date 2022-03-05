@@ -1,0 +1,59 @@
+@font-face{ 
+    font-family: "Sen-Regular";
+    src: url("static/fonts/Sen-Regular.ttf"); 
+    }
+
+.background {
+    position: inline-block;
+    width:185px;
+    height: 195px;   
+    margin: 100px auto;
+    background-color: white;
+}
+
+.button1 {
+    display:flex;
+    position: relative;
+    width: 185px;
+    height: 51px;
+    background: linear-gradient(108.62deg, #5D5FEF 20.49%, #7879F1 46.52%, #A5A6F6 78.55%, #A5A6F6 78.55%);
+    border-radius: 25.5px;
+    box-shadow: 0px 4px 4px rgba(111, 111, 111, 0.25);
+    font-family: 'Sen-Regular';
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    display:flex;
+    position: relative;
+    width: 185px;
+    height: 51px;
+    background: #A5A6F6;
+    box-shadow: 0px 4px 4px rgba(111, 111, 111, 0.25);
+    border-radius: 25.5px;
+    top: 21px;
+    font-family: 'Sen-Regular';
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button3 {
+    display:flex;
+    position: relative;
+    width: 185px;
+    height: 51px;
+    background: #5D5FEF;
+    border-radius: 25.5px;
+    top: 42px;
+    box-shadow: 0px 4px 4px rgba(111, 111, 111, 0.25);
+    font-family: 'Sen-Regular';
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
