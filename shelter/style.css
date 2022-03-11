@@ -11,3 +11,42 @@ body {
     background: url(static/images/image2.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
   }
 
+  header {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.info {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.info_title {
+    white-space: nowrap;
+    font-family: 'Georgia';
+    font-size: 32px;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.info_subtitle {
+    margin-top: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+    color: white;
+}
