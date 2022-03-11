@@ -11,7 +11,7 @@ body {
     background: url(static/images/image2.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
   }
 
-  header {
+header {
     margin-top: 60px;
     width: 100%;
     display: flex;
@@ -49,4 +49,33 @@ body {
     letter-spacing: 0.1em;
     white-space: nowrap;
     color: white;
+}
+
+.list {
+    display: flex;
+    color: #FAFAFA;
+    justify-content: space-around;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.list_item_link {
+    display: flex-end;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Arial';
+    color: #FAFAFA;
+    text-decoration: none;
+    margin-left: 35px;
+
+}
+.list_item_link:hover {
+    display: flex-end;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Arial';
+    color: #FAFAFA;
+    text-decoration: none;
+    border-bottom:3px solid #F1CDB3;
+    padding-bottom: 4px;
 }
