@@ -1,16 +1,18 @@
+body {
+    margin:0px;
+}
+
 .background {
     position: inline-block;
     width: 100vw;
     height: 800px;    
     background-color: white;
-    margin: 0pc;
+    margin: 0px;
 }
 
 .line {
-    top: 0px;
-    left: 0px;
+    margin: 0px;
     position: fixed;
-    overflow: scroll;
     height: 100px;
     width: 100vw;
     background-color: #b5de01;
@@ -19,30 +21,26 @@
 
 .news {
     width: 100vw;
-    top: 10px;
+    height: 100px;
     position: fixed;
-    overflow: scroll;
     text-align: center;
+    margin-top: -15px;
     color: white;
     z-index: 1;
     font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 40px;
-    line-height:0;
 }
 
 .border {
-    overflow:scroll;
     position: absolute;
-    width: 100%;
+    width: 100vw;
     left: 0;
     top: 115px;
-    border: 1px solid #b5de01;
+    border-bottom: 1px solid #b5de01;
 }
 
 .text {
-    width: 100vw;
+    max-width: 100vw;
     height: auto;
     position: absolute;
     top: 120px;
@@ -50,6 +48,5 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: left;
-    overflow: scroll;
     word-wrap: break-word;
 }
