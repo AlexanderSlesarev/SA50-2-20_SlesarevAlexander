@@ -64,3 +64,126 @@ header {
     margin-right: 64px;
 }
 
+.photos {
+    display: grid;
+    grid-template-columns: repeat(30, 2fr);
+    grid-template-rows: repeat(30, 2fr);
+    grid-gap: 22px;
+    width: 1310px;
+    height: 849px;
+    margin-top: 36px;
+    margin-left: 65px;
+}
+
+.photo1 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 315px;
+    height: 393px;
+    background: url(asserts/img/1.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo2 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 310px;
+    height: 248px;
+    background: url(asserts/img/2.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo3 {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 377px;
+    height: 495px;
+    background: url(asserts/img/3.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo4 {
+    display: grid;
+    grid-column-start: 21;
+    grid-column-end: 22;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 242px;
+    height: 495px;
+    background: url(asserts/img/4.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo5 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    margin-top: -9px;
+    width: 314px;
+    height: 200px;
+    background: url(asserts/img/5.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo6 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    width: 310px;
+    height: 345px;
+    background: url(asserts/img/6.jpeg);
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo7 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    width: 647px;
+    height: 209px;
+    background: url(asserts/img/7.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo8 {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 10;
+    grid-row-end: 15;
+    width: 641px;
+    height: 328px;
+    background: url(asserts/img/8.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    margin-top: -120px;
+}
