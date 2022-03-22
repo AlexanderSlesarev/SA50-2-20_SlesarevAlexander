@@ -64,6 +64,18 @@ header {
     margin-right: 64px;
 }
 
+.list_item_link:hover {
+    color: black;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    margin-right: 64px;
+    border-bottom:2px solid black;
+    padding-bottom: 1px;
+}
+
 .photos {
     display: grid;
     grid-template-columns: repeat(30, 2fr);
@@ -182,6 +194,135 @@ header {
     width: 641px;
     height: 328px;
     background: url(asserts/img/8.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    margin-top: -120px;
+}
+
+.photo1:hover {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 315px;
+    height: 393px;
+    background: url(asserts/img/1.jpeg);
+    transform: scale(1.03);
+    transition: 1s;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo2:hover {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 310px;
+    height: 248px;
+    background: url(asserts/img/2.jpeg);
+    transform: scale(1.03);
+    transition: 1s;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo3:hover {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 377px;
+    height: 495px;
+    background: url(asserts/img/3.jpeg);
+    transform: scale(1.03);
+    transition: 1s;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo4:hover {
+    display: grid;
+    grid-column-start: 21;
+    grid-column-end: 22;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 242px;
+    height: 495px;
+    background: url(asserts/img/4.jpeg);
+    transform: scale(1.03);
+    transition: 1s;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo5:hover {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    margin-top: -9px;
+    width: 314px;
+    height: 200px;
+    background: url(asserts/img/5.jpeg);
+    transform: scale(1.03);
+    transition: 1s;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo6:hover {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    width: 310px;
+    height: 345px;
+    background: url(asserts/img/6.jpeg);
+    transform: scale(1.03);
+    transition: 1s;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo7:hover {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    width: 647px;
+    height: 209px;
+    background: url(asserts/img/7.jpeg);
+    transform: scale(1.03);
+    transition: 1s;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo8:hover {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 10;
+    grid-row-end: 15;
+    width: 641px;
+    height: 328px;
+    background: url(asserts/img/8.jpeg);
+    transform: scale(1.03);
+    transition: 1s;
     background-position: center;
     background-size: cover;
     z-index: 1;
