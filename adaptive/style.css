@@ -381,6 +381,46 @@ header {
         background-size: cover;
         z-index: 1;
     }
+    footer {
+        display: flex;
+        max-width: 385px;
+        width: 100vw;
+        height: 38px;
+        margin-top: 31px;
+        margin-bottom: 30px;
+        justify-content: center; 
+    }
+
+    .messengers {
+        justify-content: space-between;
+        display: flex;
+        width: 158px;
+        z-index: 1;
+    }
+
+    .facebook {
+        background: url(asserts/img/facebook.png);
+        height: 38px;
+        width: 38px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .telegram {
+        background: url(asserts/img/telegram.png);
+        height: 38px;
+        width: 38px;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .instagram {
+        background: url(asserts/img/instagram.png);
+        height: 38px;
+        width: 38px;
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 
