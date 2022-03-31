@@ -195,6 +195,229 @@ header {
     z-index: 1;
 }
 
+footer {
+    display:none;
+}
+
+@media all and (max-width: 915px) {
+    header {
+        width: 100%;
+        max-width: 711px;
+        height: 46px;
+        display: flex;
+        margin-left: 21px;
+        align-items: center;
+        box-shadow: none;
+    }
+    
+    .lines {
+        display: flex;
+        flex-direction: column;
+        height: 16px;
+        width: 26px;
+    }
+    
+    .line {
+        margin-bottom: 8px;
+        width: 26px;
+        opacity: 0.5;
+        border-bottom: 3px solid #000000;
+        border-radius: 4px;
+    }
+    
+    .info {
+        display: flex;
+        flex-direction:row-reverse;
+        align-items: center;
+        text-align: center;
+        max-width: 711px;
+        width: 100%;
+        height: 46px;
+        justify-content: space-between;
+    }
+    
+    .info_title {
+        font-family: "Six Caps";
+        font-style: normal;
+        width: 113px;
+        height: 46px;  
+        margin-left: 0px; 
+        font-family: 'Six Caps';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+    }
+    
+    .list {
+        display: none;
+        align-items: center;
+        color: black;
+        justify-content: space-around;
+        white-space: nowrap;
+        width: 547px;
+    }
+    
+    .photos {
+        display: grid;
+        grid-template-columns: 227px 222px;
+        grid-template-rows: 167px 69px 52px 94px 165px;
+        grid-gap: 21px;
+        object-fit: cover;
+        justify-content: center;
+        width: 711px;
+        height: 765px;
+        margin-left: 21px;
+        margin-top: 15px;
+    }
+    
+    .photo1 {
+        display: none;
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+        width: 315px;
+        height: 393px;
+        background: url(asserts/img/1.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+
+    .photo2 {
+        display: grid;
+        grid-column: 3 / span 1;
+        grid-row: 6 / span 1;
+        width: 220px;
+        height: 112px;
+        background: url(asserts/img/2.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo3 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        width: 227px;
+        height: 298px;
+        background: url(asserts/img/3.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo4 {
+        display: grid;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        width: 221px;
+        height: 354px;
+        background: url(asserts/img/4.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo5 {
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        width: 221px;
+        height: 298px;
+        background: url(asserts/img/5.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo6 {
+        display: grid;
+        grid-column: 3 / span 1;
+        grid-row: 1 / span 2;
+        width: 221px;
+        height: 257px;
+        background: url(asserts/img/6.jpeg);
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo7 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        width: 469px;
+        height: 168px;
+        background: url(asserts/img/7.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo8 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        width: 469px;
+        height: 257px;
+        background: url(asserts/img/8.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    footer {
+        display: flex;
+        max-width: 711px;
+        width: 100vw;
+        height: 38px;
+        margin-top: 31px;
+        margin-bottom: 30px;
+        justify-content: center; 
+    }
+    
+    .messengers {
+        justify-content: space-between;
+        display: flex;
+        width: 158px;
+        z-index: 1;
+    }
+    
+    .facebook {
+        background: url(asserts/img/facebook.png);
+        height: 38px;
+        width: 38px;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .telegram {
+        background: url(asserts/img/telegram.png);
+        height: 38px;
+        width: 38px;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .instagram {
+        background: url(asserts/img/instagram.png);
+        height: 38px;
+        width: 38px;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
 @media all and (max-width: 500px) {
     * {
         background-color: #E5E5E5;
