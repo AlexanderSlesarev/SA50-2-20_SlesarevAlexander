@@ -224,6 +224,21 @@ header {
         height: 46px;
         justify-content: space-between;
     }
+
+    .lines {
+        display: flex;
+        flex-direction: column;
+        height: 16px;
+        width: 26px;
+    }
+    
+    .line {
+        margin-bottom: 8px;
+        width: 26px;
+        opacity: 0.5;
+        border-bottom: 3px solid #000000;
+        border-radius: 4px;
+    }
     
     .info_title {
         font-family: "Six Caps";
