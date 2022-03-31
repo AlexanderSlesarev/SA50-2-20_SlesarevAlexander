@@ -1,0 +1,650 @@
+@font-face{ 
+    font-family: "Six Caps";
+    src: url(asserts/fonts/SixCaps.ttf); 
+}
+
+@font-face{ 
+    font-family: "Oswald";
+    src: url(asserts/fonts/Oswald-ExtraLight.ttf); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    height: 105px;
+    justify-content: space-between;
+}
+
+.info_title {
+    font-family: "Six Caps";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    width: 206px;
+    height: 84px;  
+    margin-left: 64px; 
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: space-around;
+    white-space: nowrap;
+    width: 547px;
+    margin-right: 65px;
+}
+
+.list_item_link {
+    color: black;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    margin-right: 64px;
+}
+
+.list_item_link:hover {
+    color: black;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    margin-right: 64px;
+    border-bottom:2px solid black;
+    padding-bottom: 1px;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 315px 311px 377px 242px;
+    grid-template-rows: 248px 123px 80px 99px 198px;
+    grid-gap: 22px;
+    object-fit: cover;
+    justify-content: center;
+
+    width: 1310px;
+    height: 849px;
+    margin-top: 36px;
+    margin-left: 65px;
+}
+
+.photo1 {
+    display: grid;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    width: 315px;
+    height: 393px;
+    background: url(asserts/img/1.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo2 {
+    display: grid;
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 1;
+    width: 310px;
+    height: 248px;
+    background: url(asserts/img/2.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo3 {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 377px;
+    height: 495px;
+    background: url(asserts/img/3.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo4 {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 242px;
+    height: 495px;
+    background: url(asserts/img/4.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo5 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    width: 314px;
+    height: 200px;
+    background: url(asserts/img/5.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo6 {
+    display: grid;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 2;
+    width: 310px;
+    height: 345px;
+    background: url(asserts/img/6.jpeg);
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo7 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    width: 647px;
+    height: 209px;
+    background: url(asserts/img/7.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.photo8 {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 641px;
+    height: 328px;
+    background: url(asserts/img/8.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+footer {
+    display:none;
+}
+
+@media all and (max-width: 915px) {
+    header {
+        width: 100%;
+        max-width: 711px;
+        height: 46px;
+        display: flex;
+        margin-left: 21px;
+        align-items: center;
+        box-shadow: none;
+    }
+    
+    .lines {
+        display: flex;
+        flex-direction: column;
+        height: 16px;
+        width: 26px;
+    }
+    
+    .line {
+        margin-bottom: 8px;
+        width: 26px;
+        opacity: 0.5;
+        border-bottom: 3px solid #000000;
+        border-radius: 4px;
+    }
+    
+    .info {
+        display: flex;
+        flex-direction:row-reverse;
+        align-items: center;
+        text-align: center;
+        max-width: 711px;
+        width: 100%;
+        height: 46px;
+        justify-content: space-between;
+    }
+    
+    .info_title {
+        font-family: "Six Caps";
+        font-style: normal;
+        width: 113px;
+        height: 46px;  
+        margin-left: 0px; 
+        font-family: 'Six Caps';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+    }
+    
+    .list {
+        display: none;
+        align-items: center;
+        color: black;
+        justify-content: space-around;
+        white-space: nowrap;
+        width: 547px;
+    }
+    
+    .photos {
+        display: grid;
+        grid-template-columns: 227px 222px;
+        grid-template-rows: 167px 69px 52px 94px 165px;
+        grid-gap: 21px;
+        object-fit: cover;
+        justify-content: center;
+        width: 711px;
+        height: 765px;
+        margin-left: 21px;
+        margin-top: 15px;
+    }
+    
+    .photo1 {
+        display: none;
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+        width: 315px;
+        height: 393px;
+        background: url(asserts/img/1.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+
+    .photo2 {
+        display: grid;
+        grid-column: 3 / span 1;
+        grid-row: 6 / span 1;
+        width: 220px;
+        height: 112px;
+        background: url(asserts/img/2.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo3 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        width: 227px;
+        height: 298px;
+        background: url(asserts/img/3.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo4 {
+        display: grid;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        width: 221px;
+        height: 354px;
+        background: url(asserts/img/4.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo5 {
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        width: 221px;
+        height: 298px;
+        background: url(asserts/img/5.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo6 {
+        display: grid;
+        grid-column: 3 / span 1;
+        grid-row: 1 / span 2;
+        width: 221px;
+        height: 257px;
+        background: url(asserts/img/6.jpeg);
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo7 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        width: 469px;
+        height: 168px;
+        background: url(asserts/img/7.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo8 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        width: 469px;
+        height: 257px;
+        background: url(asserts/img/8.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    footer {
+        display: flex;
+        max-width: 711px;
+        width: 100vw;
+        height: 38px;
+        margin-top: 31px;
+        margin-bottom: 30px;
+        justify-content: center; 
+    }
+    
+    .messengers {
+        justify-content: space-between;
+        display: flex;
+        width: 158px;
+        z-index: 1;
+    }
+    
+    .facebook {
+        background: url(asserts/img/facebook.png);
+        height: 38px;
+        width: 38px;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .telegram {
+        background: url(asserts/img/telegram.png);
+        height: 38px;
+        width: 38px;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .instagram {
+        background: url(asserts/img/instagram.png);
+        height: 38px;
+        width: 38px;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media all and (max-width: 500px) {
+    * {
+        background-color: #E5E5E5;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+    
+    header {
+        width: 100%;
+        max-width: 385px;
+        height: 46px;
+        display: flex;
+        margin-left: 21px;
+        align-items: center;
+        box-shadow: none;
+    }
+
+    .info {
+        display: flex;
+        flex-direction:row-reverse;
+        align-items: center;
+        text-align: center;
+        max-width: 385px;
+        width: 100%;
+        height: 46px;
+        justify-content: space-between;
+    }
+
+    .lines {
+        display: flex;
+        flex-direction: column;
+        height: 16px;
+        width: 26px;
+    }
+    
+    .line {
+        margin-bottom: 8px;
+        width: 26px;
+        opacity: 0.5;
+        border-bottom: 3px solid #000000;
+        border-radius: 4px;
+    }
+    
+    .info_title {
+        font-family: "Six Caps";
+        font-style: normal;
+        width: 113px;
+        height: 46px;  
+        margin-left: 0px; 
+        font-family: 'Six Caps';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .list {
+        display: none;
+        align-items: center;
+        color: black;
+        justify-content: space-around;
+        white-space: nowrap;
+        width: 547px;
+    }
+    
+    .photos {
+        display: grid;
+        grid-template-columns: 186px 186px;
+        grid-template-rows: 111px 214px 61px 214px 111px;
+        grid-gap: 13px;
+        object-fit: cover;
+        justify-content: center;
+        width: 385px;
+        height: 763px;
+        margin-left: 21px;
+        margin-top: 15px;
+    }
+    
+    .photo1 {
+        display: none;
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+        width: 315px;
+        height: 393px;
+        background: url(asserts/img/1.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+
+    .photo2 {
+        display: none;
+        grid-column: 2 / span 2;
+        grid-row: 1 / span 1;
+        width: 310px;
+        height: 248px;
+        background: url(asserts/img/2.jpeg);
+        transform: scale(1.03);
+        transition: 1s;
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+
+    .photo3 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        width: 186px;
+        height: 214px;
+        background: url(asserts/img/3.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo4 {
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        width: 186px;
+        height: 288px;
+        background: url(asserts/img/4.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo5 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        width: 186px;
+        height: 288px;
+        background: url(asserts/img/5.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo6 {
+        display: grid;
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 2;
+        width: 186px;
+        height: 214px;
+        background: url(asserts/img/6.jpeg);
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo7 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 385px;
+        height: 111px;
+        background: url(asserts/img/7.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    .photo8 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        width: 385px;
+        height: 111px;
+        background: url(asserts/img/8.jpeg);
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+
+    footer {
+        display: flex;
+        max-width: 385px;
+        width: 100vw;
+        height: 38px;
+        margin-top: 31px;
+        margin-bottom: 30px;
+        justify-content: center; 
+    }
+
+    .messengers {
+        justify-content: space-between;
+        display: flex;
+        width: 158px;
+        z-index: 1;
+    }
+
+    .facebook {
+        background: url(asserts/img/facebook.png);
+        height: 38px;
+        width: 38px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .telegram {
+        background: url(asserts/img/telegram.png);
+        height: 38px;
+        width: 38px;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .instagram {
+        background: url(asserts/img/instagram.png);
+        height: 38px;
+        width: 38px;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+
