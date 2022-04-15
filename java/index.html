@@ -15,25 +15,27 @@
         let left = 0
         let wtop = 0
         let hright = 0
-        setInterval (function () {
-                if (left + 50 == w) { 
-                    if (wtop + 50 == h){
+        cube.onclick = function() {
+            setInterval (function () {
+                    if (left + 50 == w) { 
+                        if (wtop + 50 == h){
+                            left--
+                            cube.style.left = left + "px"
+                        }else if (wtop >= 0){
+                        wtop++
+                        cube.style.top = wtop + "px"
+                        }
+                        }else if (wtop == 0){
+                            left++
+                            cube.style.left = left + "px"
+                    }else if ((left > 0) && (wtop > 0)){
                         left--
-                        cube.style.left = left + "px"
-                    }else if (wtop >= 0){
-                    wtop++
-                    cube.style.top = wtop + "px"
-                    }
-                    }else if (wtop == 0){
-                        left++
-                        cube.style.left = left + "px"
-                }else if ((left > 0) && (wtop > 0)){
-                    left--
-                    cube.style.left = left + "px" 
-                }else if ((left == 0) && (wtop > 0))
-                    wtop--
-                    cube.style.top = wtop + "px"
-        }, 1);
+                        cube.style.left = left + "px" 
+                    }else if ((left == 0) && (wtop > 0))
+                        wtop--
+                        cube.style.top = wtop + "px"
+            }, 1);
+        }
     </script>
 </body>
 </html>
