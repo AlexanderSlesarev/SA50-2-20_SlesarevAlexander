@@ -1,0 +1,12 @@
+.cube {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 0px;
+    background-color: red;
+    right: 0;
+}
+
+body {
+    margin:0;
+}

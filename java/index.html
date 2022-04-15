@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cube", id='cube'></div>
+    <script>
+        const w = document.documentElement.scrollWidth
+        const h = document.documentElement.scrollHeight
+        let left = 0
+        let wtop = 0
+        let hright = 0
+        setInterval (function () {
+                if (left + 50 == w) { 
+                    if (wtop + 50 == h){
+                        left--
+                        cube.style.left = left + "px"
+                    }else if (wtop >= 0){
+                    wtop++
+                    cube.style.top = wtop + "px"
+                    }
+                    }else if (wtop == 0){
+                        left++
+                        cube.style.left = left + "px"
+                }else if ((left > 0) && (wtop > 0)){
+                    left--
+                    cube.style.left = left + "px" 
+                }else if ((left == 0) && (wtop > 0))
+                    wtop--
+                    cube.style.top = wtop + "px"
+        }, 1);
+    </script>
+</body>
+</html>
